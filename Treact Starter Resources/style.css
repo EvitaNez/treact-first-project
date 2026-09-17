@@ -18,12 +18,12 @@ body {
     overflow-x: hidden;
 }
 .row {
-    width: 100px;
+    width: 100%;
     max-width: 1200px;
     margin: 0 auto;            
 }
 .row__narrow {
-    width: 100px;
+    width: 100%;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -105,10 +105,6 @@ nav {
     display: flex;
 }
 
-.nav__row {
-    display: flex;
-    justify-content: space-between;
-}
 
 .nav__logo {
     display: flex;
@@ -126,6 +122,10 @@ nav {
 .nav__logo--img {
     height: 40px;
     width: 40px;
+}
+.nav__row {
+    display: flex;
+    justify-content: space-between;
 }
 .nav__container {
     width: 100%;
