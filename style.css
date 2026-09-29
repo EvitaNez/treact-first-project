@@ -45,8 +45,10 @@ line-height: 1.25;
     color: #6415ff;
 }
 p {
-    font-size: 18px;
-    line-height: 1.5;
+    font-size: 14px;
+    line-height: 2;
+    font-weight: 500;
+    color: #718096;
 }
 
 .section__tag {
@@ -552,7 +554,7 @@ STEPS ↓
   font-weight: 600;
   font-size: 20px;
   color: #243e63;
-  line-height: 1;
+  line-height: 2;
 }
 .step__para {
   font-size: 14px;
@@ -590,7 +592,7 @@ VALUES ↓
 #values .row {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
 }
 #values .section__title {
   margin-top: 16px;
